@@ -1,0 +1,42 @@
+{
+  "name": "dialogflow-fulfillment-builder",
+  "version": "1.0.0",
+  "description": "The Dialogflow Fulfillment Builder helps you to form the responses with ease in order to connect your Dialogflow agent with different platforms. It supports fulfillment responses for multiple platforms like Text, Google Assistant, Telephony and Facebook Messenger.",
+  "author": "Quantiphi Inc.",
+  "email": "support.qonversationalai@quantiphi.com",
+  "license": "Apache License 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc node ./node_modules/mocha/bin/mocha \"./{,!(node_modules)/**/}*.test.js\" --recursive --exit"
+  },
+  "nyc": {
+    "include": [
+      "fulfillment-builder",
+      "response-builder",
+      "dialogflow fulfillment library",
+      "fulfillment response builder"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quantiphi/dialogflow-fulfillment-builder/"
+  },
+  "issues": {
+    "url": "https://github.com/Quantiphi/dialogflow-fulfillment-builder/issues"
+  },
+  "homepage": "https://github.com/Quantiphi/dialogflow-fulfillment-builder#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jsdoc": "^3.6.3",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  },
+  "keywords": [
+    "webhook framework",
+    "virtual agent",
+    "fulfillment-builder",
+    "response-builder",
+    "dialogflow fulfillment library",
+    "fulfillment response builder"
+  ]
+}
