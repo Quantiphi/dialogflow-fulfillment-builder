@@ -2,7 +2,7 @@
   "name": "dialogflow-fulfillment-builder",
   "version": "1.0.0",
   "description": "The Dialogflow Fulfillment Builder helps you to form the responses with ease in order to connect your Dialogflow agent with different platforms. It supports fulfillment responses for multiple platforms like Text, Google Assistant, Telephony and Facebook Messenger.",
-  "author": "Quantiphi Inc.",
+  "author": "Quantiphi, Inc.",
   "email": "support.qonversationalai@quantiphi.com",
   "license": "Apache License 2.0",
   "main": "index.js",
